@@ -1,9 +1,13 @@
+# Archivo con credenciales para testear
+test-credentials.txt
+
 # Local .terraform directories
 **/.terraform/*
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
+deployment.tfplan
 
 # Crash log files
 crash.log
@@ -30,5 +34,6 @@ override.tf.json
 # example: *tfplan*
 
 # Ignore CLI configuration files
+.terraform.lock.hcl
 .terraformrc
 terraform.rc
